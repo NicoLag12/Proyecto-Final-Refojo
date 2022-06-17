@@ -1,0 +1,87 @@
+body{
+    font-family: sans-serif;
+    background-color: #D2D2D2;
+    margin: 0;
+    background-color: #e5e5f7;
+    background-image: radial-gradient(#e10eb0 1.6500000000000001px, #e5e5f7 1.6500000000000001px);
+    background-size: 33px 33px;
+    background-position: 0 0,10px 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    display: flex;
+}
+
+header{
+    display: flex;
+    height: 70px;
+    background-color: rgba(128, 128, 128, 0.377);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+a img{
+    height: 76px;
+    margin-right: 1px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color:white;
+}
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+}
+#Clasificaciones {
+    margin-right:2;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+.container{
+    position: relative;
+    margin-left: 167px;
+}
+
+#seccionCarrito{
+    text-decoration: none;
+}
+#Contenedor-icono-carrito{
+    margin-left: 1050px;
+    outline: none;
+}
+.carrito{
+    border: none;
+    background-color: #F8F9FA;
+}
+
+#container-final{
+    height: 100%;
+    display: flex;
+ 
+}
+
+#btn-final{
+    border: none;
+    color: white;
+    background-color: #E10EB0;
+    border-radius: 4px ;
+    box-shadow: inset 0 0 0 0 #f9e506;
+    transition: ease-in-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+}
+
+#btn-final:hover{
+    box-shadow: inset 300px 0 0 0 #f9e506;
+}

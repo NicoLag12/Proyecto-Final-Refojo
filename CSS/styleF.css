@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e5e5f7;
+    background-image: radial-gradient(#e10eb0 1.6500000000000001px, #e5e5f7 1.6500000000000001px);
+    background-size: 33px 33px;
+    background-position: 0 0,10px 10px;
+    display: flex;
+    min-height: 100vh;
+}
+.form{
+    background-color: #fff;
+    margin-left: 350px;
+    width: 90%;
+    max-width: 400px;
+    padding: 4.5em 3em;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px rgb(0 0 0 /30%);
+    text-align: center;
+}
+.form img{
+    margin-top: -26px;
+}
+.form_title{
+    font-size: 2rem;
+    margin-bottom: .5em;
+}
+
+.form_paragraph{
+    font-weight:normal ;
+}
+
+.form__link{
+    font-weight: 400;
+    color: #000;
+}
+
+.form-container{
+    margin-top: 3em;
+    display: grid;
+    gap: 2.5em;
+}
+
+.form-group{
+   position: relative;
+   --color:#5757577e;
+
+}   
+.form-input:focus + .form-label,
+.form-input:not(:placeholder-shown) + .form-label{
+    transform: translateY(-12px) scale(.7);
+    transform-origin: left top;
+    color: #E10EB0;
+}
+
+.form-input{
+    width: 100%;
+    background: none;
+    color: #706c6c;
+    font-size: 1rem;
+    padding: .6em .3em;
+    border: none;
+    outline: none;
+    border-bottom:  1px solid var(--color)
+}
+.form-input:not(:placeholder-shown){
+    color:#4d4646 ;
+
+}
+
+.form-label{
+    color: var(--color);
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    transform: translateY(10px);
+    transition: transform .5s, color .3s;
+}
+
+.form-submit{
+    background: #E10EB0;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: .8em 0;
+    border: none;
+    border-radius: .5em;
+
+}
+
+.form-line{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #E10EB0;
+    transform: scale(0);
+    transform: left bottom;
+    transition: transform .4s;
+}
+
+.form-input:focus ~ .form-line,
+.form-input:not(:placeholder-shown) ~ .form-line{
+    transform: scale(1);
+}
+
+
+
+@media (max-width:425px){
+    .form_title{
+        font-size: 1.8rem;
+    }
+}
+
+#final{
+    
+    text-decoration: none;
+    border: none;
+    color: white;
+    background-color: #E10EB0;
+    border-radius: 4px ;
+    box-shadow: inset 0 0 0 0 #f9e506;
+    transition: ease-in-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+}
+
+#final:hover{
+    box-shadow: inset 300px 0 0 0 #f9e506;
+}

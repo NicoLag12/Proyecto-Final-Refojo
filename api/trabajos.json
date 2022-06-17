@@ -1,0 +1,85 @@
+{
+    "Profeciones":[
+        {   
+            "precio": 1700,
+            "id": 1,
+            "Rol": "Cocinero",
+            "Colores": "Blanco Y Negro",
+            "clasificacion": "Gastronomia",
+            "thumbnaiUrl" :"https://barbavestir.es/productos/19/chaqueta+cocinero+-ropa-de-trabajo-1.jpg"
+        },
+        {   
+            "precio": 2900,
+            "id": 2,
+            "Rol": "Pastelero",
+            "Colores": "blanco",
+            "clasificacion": "Gastronomia",
+            "thumbnaiUrl":"https://i.pinimg.com/564x/af/dc/3b/afdc3b943b820b00be962c96e46520f0.jpg"
+        },
+        {   
+            "precio": 3200,
+            "id": 3,
+            "Rol": "Medico",
+            "Colores": "Azul Marino",
+            "clasificacion":"Salud",
+            "thumbnaiUrl":"https://http2.mlstatic.com/D_NQ_NP_841171-MLA44396386720_122020-O.jpg"
+        },
+        {
+            "precio": 1650,
+            "id": 4,
+            "Rol": "Enfermero",
+            "Colores": "Blanco",
+            "clasificacion": "Salud",
+            "thumbnaiUrl":"https://http2.mlstatic.com/D_NQ_NP_748172-MLA45511543326_042021-W.jpg"
+        },
+        {
+            "precio": 2999,
+            "id": 5,
+            "Rol": "Veterinario",
+            "Colores": "Azul Francia",
+            "clasificacion":"Salud",
+            "thumbnaiUrl" :"https://catalogo.ropaconsulogo.com.ar/wp-content/uploads/2020/07/chaqueta-arciel.jpg"
+        },
+        {
+            "precio": 2100,
+            "id": 6,
+            "Rol": "Cirujano",
+            "Colores": "Coral",
+            "clasificacion":"Salud",
+            "thumbnaiUrl": "https://http2.mlstatic.com/D_NQ_NP_929382-MLA44519998559_012021-W.jpg"
+        },
+        {
+            "precio": 2900,
+            "id": 7,
+            "Rol": "Camillero",
+            "Colores": "Verde Loro",
+            "clasificacion": "Transportista",
+            "thumbnaiUrl" : "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/641/706/products/20210511_2307491-5a65fcd73589c0015216212731073643-640-0.jpg"
+        },
+        {   
+            "precio": 1300,
+            "id": 8,
+            "Rol": "Ambulanciero",
+            "Colores": "Azul Petroleo",
+            "clasificacion":"Transportista",
+            "thumbnaiUrl" : "https://http2.mlstatic.com/D_NQ_NP_850130-MLA43648350093_102020-W.jpg"
+        },
+        {   
+            "precio": 1000,
+            "id": 9,
+            "Rol": "Limpieza",
+            "Colores": "Gris",
+            "clasificacion": "Servicios",
+            "thumbnaiUrl" :"https://ambossakura.com.ar/wp-content/uploads/2020/07/20190514_171944-e1595966760151.png"
+        },
+        {
+            "precio": 1300,
+            "id": 10,
+            "Rol": "Mantenimiento",
+            "Colores": "Verde Petroleo",
+            "clasificacion":"Servicios",
+            "thumbnaiUrl" :"https://http2.mlstatic.com/D_NQ_NP_948149-MCO29454601003_022019-O.webp"
+        }
+    ]
+
+}
