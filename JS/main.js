@@ -7,7 +7,7 @@ const templateFooter = document.getElementById('template-footer').content
 const templateCarrito = document.getElementById('template-carrito').content
 const items = document.getElementById('items')
 const footer = document.getElementById('footer')
-const url = 'https://trabajos-ef168-default-rtdb.firebaseio.com/Profeciones.json'
+const url = 'https://jobs-17d7a-default-rtdb.firebaseio.com/Profeciones.json'
 let carrito= {}
 
 fetch(`${url}`)
